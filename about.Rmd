@@ -47,7 +47,7 @@ Bitte achten Sie auf die entsprechenden Aushänge am Eingang.
 
 ## Website
 
-Die vorliegende Website wurde mit der Open-Source-Software RADIX erstellt.
+Die vorliegende Website wurde mit der Open-Source-Software RADIX (Allaire JJ. Radix for R Markdown. 2018) erstellt.
 
 ```{r mapSHM, fig.cap="Veranstaltungsort", layout="l-body shaded"}
 library(leaflet)
@@ -59,7 +59,7 @@ leaflet() %>%
 
 ## Acknowledgments {.appendix}
 
-Diese Website ist mit RADIX-Open-Source-Software entstanden.
+Diese Website ist mit RADIX-Open-Source-Software [] entstanden.
 
 ## Author Contributions {.appendix}
 
