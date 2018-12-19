@@ -1,0 +1,43 @@
+---
+title: "Wer viel misst, misst viel Mist, oder? – was ist 'BIG' an BIG DATA?"
+description: |
+  Ein Einstieg ins Thema
+author:
+  - name: Hendrik Friederichs
+date: "`r Sys.Date()`"
+output: 
+  radix::radix_article:
+    toc: true
+    toc_depth: 2
+creative_commons: CC BY-NC
+journal:
+doi:
+slug: friederichs2018Mist
+citation_url: https://rstudio.github.io/friedeh
+bibliography: "Papers_all.bib"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tufte)
+# Umwandlung in Powerpoint-Datei über rmarkdown::render("Mist_article.Rmd", output_format = "powerpoint_presentation", output_options = list(reference_doc = "my-styles.pptx"))
+# Umwandlung in Tufte-Handout über rmarkdown::render("Mist_article.Rmd", output_format = "tufte_handout")
+# Umwandlung in Word-Datei über rmarkdown::render("Mist_article.Rmd", output_format = "word_document")
+```
+# Hintergrund {.tabset .tabset-fade}
+
+## Daten
+* wie viele Daten gibt es im Internet
+
+## Verteilung
+
+* wie verteilen sich die Daten?
+
+# Ziele
+
+* strukturierte und unstrukturierte Daten
+* evtl. EVALuna-Beispiel?
+
+# Brainstorming
+
+Jetzt seid Ihr dran!

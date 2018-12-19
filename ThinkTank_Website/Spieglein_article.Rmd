@@ -1,0 +1,35 @@
+---
+title: "Spieglein, Spieglein an der Wand, sag' mir wer ... – wie gut kennen mich Facebook & Co.?"
+description: |
+  Der sog. "Verhaltensüberschuss" der sozialen Netzwerke
+author:
+  - name: Hendrik Friederichs
+date: "`r Sys.Date()`"
+output: 
+  radix::radix_article:
+    toc: true
+    toc_depth: 2
+creative_commons: CC BY-NC
+journal:
+doi:
+slug: friederichs2018Spieglein
+citation_url: https://rstudio.github.io/friedeh
+bibliography: "Papers_all.bib"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tufte)
+# Umwandlung in Powerpoint-Datei über rmarkdown::render("Spieglein_article.Rmd", output_format = "powerpoint_presentation", output_options = list(reference_doc = "my-styles.pptx"))
+# Umwandlung in Tufte-Handout über rmarkdown::render("Spieglein_article.Rmd", output_format = "tufte_handout")
+# Umwandlung in Word-Datei über rmarkdown::render("Spieglein_article.Rmd", output_format = "word_document")
+```
+
+* Nutzung der sozialen Medien
+* Die großen Player: Google und Facebook
+* Was machen die mit unseren Daten?: der Verhaltensüberschuss
+* Besser als meine Eltern ...
+
+
+
+

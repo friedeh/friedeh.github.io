@@ -1,0 +1,23 @@
+---
+title: "Neue Seite"
+description: |
+  Weitere Ergänzungen zur Website
+author:
+  - name: Hendrik Friederichs 
+    url: https://www.friederichs.science
+    affiliation: Institut für Ausbildung und Studienangelegenheiten (IfAS)
+    affiliation_url: https://medicampus.uni-muenster.de
+date: "`r Sys.Date()`"
+output: radix::radix_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+
+
+
