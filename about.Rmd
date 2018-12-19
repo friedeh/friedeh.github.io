@@ -45,6 +45,10 @@ __31.01.2019__: Zu gut für die Medizin? – BIG DATA im Gesundheitswesen
 Der Think Tank findet im Studienhospital Münster (Malmedyweg 17-19, Münster) statt.
 Bitte achten Sie auf die entsprechenden Aushänge am Eingang.
 
+## Website
+
+Die vorliegende Website wurde mit der Open-Source-Software RADIX erstellt.
+
 ```{r mapSHM, fig.cap="Veranstaltungsort", layout="l-body shaded"}
 library(leaflet)
 leaflet() %>%
@@ -55,7 +59,7 @@ leaflet() %>%
 
 ## Acknowledgments {.appendix}
 
-Diese Website ist mit RADIX-Open-Source-Software[@allaire2018radix] entstanden.
+Diese Website ist mit RADIX-Open-Source-Software entstanden.
 
 ## Author Contributions {.appendix}
 

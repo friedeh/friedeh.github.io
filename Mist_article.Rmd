@@ -28,7 +28,8 @@ library(tufte)
 # Umwandlung in Tufte-Handout über rmarkdown::render("Mist_article.Rmd", output_format = "tufte_handout")
 # Umwandlung in Word-Datei über rmarkdown::render("Mist_article.Rmd", output_format = "word_document")
 ```
-# Hintergrund {.tabset .tabset-fade}
+
+# Hintergrund
 
 ## Daten
 * wie viele Daten gibt es im Internet

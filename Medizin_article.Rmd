@@ -28,7 +28,6 @@ library(tufte)
 # Umwandlung in Tufte-Handout über rmarkdown::render("Medizin_article.Rmd", output_format = "tufte_handout")
 # Umwandlung in Word-Datei über rmarkdown::render("Medizin_article.Rmd", output_format = "word_document")
 ```
-```
 
 * Möglichkeiten
 * Risiken

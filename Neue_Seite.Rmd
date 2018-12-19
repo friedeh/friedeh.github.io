@@ -8,7 +8,8 @@ author:
     affiliation: Institut für Ausbildung und Studienangelegenheiten (IfAS) der Medizinischen Fakultät Münster
     affiliation_url: https://medicampus.uni-muenster.de/ifas.html
 date: "`r Sys.Date()`"
-output: radix::radix_article
+output: 
+  radix::radix_article:
     toc: true
     toc_depth: 2
     self_contained: false

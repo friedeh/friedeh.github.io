@@ -40,7 +40,7 @@ navbar:
       menu:
         - text: "TEAMTHINK"
         - text: "Workshop"
-          href: WS_Teamthink_article.html
+          href: Workshop_article.html
         - text: "Denkfabrik"
           href: Teamthink_article.html
           

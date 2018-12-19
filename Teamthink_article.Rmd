@@ -1,7 +1,7 @@
 ---
-title: "Zu gut für die Medizin? – BIG DATA im Gesundheitswesen"
+title: "TEAMTHINK - gemeinsam besser entscheiden"
 description: |
-  Diagnose und Therapie durch Maschinen?
+  Ein QVM-Projekt der Medizinischen Fakultät Münster
 author:
   - name: Hendrik Friederichs
     url: https://www.friederichs.science
@@ -27,7 +27,6 @@ library(tufte)
 # Umwandlung in Powerpoint-Datei über rmarkdown::render("Medizin_article.Rmd", output_format = "powerpoint_presentation", output_options = list(reference_doc = "my-styles.pptx"))
 # Umwandlung in Tufte-Handout über rmarkdown::render("Medizin_article.Rmd", output_format = "tufte_handout")
 # Umwandlung in Word-Datei über rmarkdown::render("Medizin_article.Rmd", output_format = "word_document")
-```
 ```
 
 # Hintergrund

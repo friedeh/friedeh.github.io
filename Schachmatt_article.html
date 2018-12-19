@@ -49,12 +49,13 @@
   <meta name="citation_online_date" content="2018/12/19"/>
   <meta name="citation_publication_date" content="2018/12/19"/>
   <meta name="citation_author" content="Hendrik Friederichs"/>
+  <meta name="citation_author_institution" content="Institut für Ausbildung und Studienangelegenheiten (IfAS) der Medizinischen Fakultät Münster"/>
   <!--/radix_placeholder_meta_tags-->
   
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","creative_commons","journal","doi","slug","citation_url","bibliography"]}},"value":[{"type":"character","attributes":{},"value":["Schachmatt: Machine Learning, Deep Learning und die Frage der (künstlichen) Intelligenz"]},{"type":"character","attributes":{},"value":["Am Anfang war es nur ein Spiel ...\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Hendrik Friederichs"]}]}]},{"type":"character","attributes":{},"value":["2018-12-19"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["radix::radix_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"character","attributes":{},"value":["CC BY-NC"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["friederichs2018Schachmatt"]},{"type":"character","attributes":{},"value":["https://rstudio.github.io/friedeh"]},{"type":"character","attributes":{},"value":["Papers_all.bib"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","creative_commons","journal","doi","slug","citation_url","bibliography"]}},"value":[{"type":"character","attributes":{},"value":["Schachmatt: Machine Learning, Deep Learning und die Frage der (künstlichen) Intelligenz"]},{"type":"character","attributes":{},"value":["Am Anfang war es nur ein Spiel ...\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Hendrik Friederichs"]},{"type":"character","attributes":{},"value":["https://www.friederichs.science"]},{"type":"character","attributes":{},"value":["Institut für Ausbildung und Studienangelegenheiten (IfAS) der Medizinischen Fakultät Münster"]},{"type":"character","attributes":{},"value":["https://medicampus.uni-muenster.de/ifas.html"]}]}]},{"type":"character","attributes":{},"value":["2018-12-19"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["radix::radix_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]},{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["CC BY-NC"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["friederichs2018Schachmatt"]},{"type":"character","attributes":{},"value":["https://rstudio.github.io/friedeh"]},{"type":"character","attributes":{},"value":["Papers_all.bib"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1285,7 +1286,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Schachmatt: Machine Learning, Deep Learning und die Frage der (künstlichen) Intelligenz","description":"Am Anfang war es nur ein Spiel ...","authors":[{"author":"Hendrik Friederichs","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2018-12-19T00:00:00.000+01:00","citationText":"Friederichs, 2018"}
+{"title":"Schachmatt: Machine Learning, Deep Learning und die Frage der (künstlichen) Intelligenz","description":"Am Anfang war es nur ein Spiel ...","authors":[{"author":"Hendrik Friederichs","authorURL":"https://www.friederichs.science","affiliation":"Institut für Ausbildung und Studienangelegenheiten (IfAS) der Medizinischen Fakultät Münster","affiliationURL":"https://medicampus.uni-muenster.de/ifas.html"}],"publishedDate":"2018-12-19T00:00:00.000+01:00","citationText":"Friederichs, 2018"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1331,6 +1332,18 @@ Termine
 <a href="E-Learning-Dashboard_article.html">E-Learning: Dashboard</a>
 </div>
 </div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Projekte
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<span class="nav-dropdown-header">TEAMTHINK</span>
+<a href="Workshop_article.html">Workshop</a>
+<a href="Teamthink_article.html">Denkfabrik</a>
+</div>
+</div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -1345,7 +1358,7 @@ Termine
 </div>
 
 <div class="d-byline">
-  Hendrik Friederichs  
+  Hendrik Friederichs <a href="https://www.friederichs.science" class="uri">https://www.friederichs.science</a> (Institut für Ausbildung und Studienangelegenheiten (IfAS) der Medizinischen Fakultät Münster)<a href="https://medicampus.uni-muenster.de/ifas.html" class="uri">https://medicampus.uni-muenster.de/ifas.html</a>
   
 <br/>2018-12-19
 </div>
@@ -1385,6 +1398,13 @@ Termine
 <script id="distill-bibliography" type="text/bibtex">
 %% Created using Papers on Tue, 05 Jun 2018.
 %% http://papersapp.com/papers/
+
+@misc{allaire2018radix,
+  author = {Allaire, JJ and Iannone, Rich and Xie, Yihui},
+  title = {Radix for R Markdown},
+  url = {https://rstudio.github.io/radix},
+  year = {2018}
+}
 
 @webpage{Anonymous:DPAYCeIJ,
 url = {http://www.egms.de/static/en/journals/zma/2015-32/zma000977.shtml}
@@ -9018,16 +9038,6 @@ pages = {836--842},
 month = apr
 }
 
-@article{Collaboration:2015cn,
-author = {Collaboration, Open Science},
-title = {{Estimating the reproducibility of psychological science}},
-journal = {Science (New York, NY)},
-year = {2015},
-volume = {349},
-number = {6251},
-pages = {aac4716--aac4716},
-month = aug
-}
 
 @article{Collaboration:2015cn,
 author = {Collaboration, Open Science},
@@ -11269,17 +11279,6 @@ volume = {28},
 number = {1},
 pages = {3--18},
 month = feb
-}
-
-@article{Dornan:2006p24,
-author = {Dornan, T and Littlewood, S and Margolis, S A and Scherpbier, A and Spencer, J and Ypinazar, V},
-title = {{How can experience in clinical and community settings contribute to early medical education? A BEME systematic review{\#}}},
-journal = {Medical Teacher},
-year = {2006},
-volume = {28},
-number = {1},
-pages = {3--18},
-month = jan
 }
 
 @article{Dornan:2005p1270,
@@ -15605,17 +15604,6 @@ volume = {292},
 number = {23},
 pages = {2890--2900},
 month = dec
-}
-
-@article{Green:2001p6120,
-author = {Green, L A and Fryer, G E and Yawn, B P and Lanier, D and Dovey, S M},
-title = {{The ecology of medical care revisited}},
-journal = {The New England journal of medicine},
-year = {2001},
-volume = {344},
-number = {26},
-pages = {2021--2025},
-month = jun
 }
 
 @article{Green:2001wu,
@@ -25841,17 +25829,6 @@ volume = {15},
 number = {11},
 pages = {1199--1206},
 month = oct
-}
-
-@article{Noguchi:2004iu,
-author = {Noguchi, Yoshinori and Matsui, Kunihiko and Imura, Hiroshi and Kiyota, Masatomo and Fukui, Tsuguya},
-title = {{A traditionally administered short course failed to improve medical students' diagnostic performance. A quantitative evaluation of diagnostic thinking.}},
-journal = {Journal of general internal medicine : official journal of the Society for Research and Education in Primary Care Internal Medicine},
-year = {2004},
-volume = {19},
-number = {5 Pt 1},
-pages = {427--432},
-month = may
 }
 
 @article{Noguchi:2004iu,

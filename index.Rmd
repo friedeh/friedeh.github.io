@@ -1,8 +1,8 @@
 ---
 title: "Think Tank Studienhospital"
+site: radix::radix_website
 description: |
   Sinn und Relevanz in der medizinischen Ausbildung: der Blick über den Tellerrand
-site: radix::radix_website
 ---
 
 ```{r setup, include=FALSE}
