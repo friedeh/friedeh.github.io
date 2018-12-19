@@ -1,0 +1,37 @@
+---
+title: "Schachmatt: Machine Learning, Deep Learning und die Frage der (künstlichen) Intelligenz"
+description: |
+  Am Anfang war es nur ein Spiel ...
+author:
+  - name: Hendrik Friederichs
+date: "`r Sys.Date()`"
+output: 
+  radix::radix_article:
+    toc: true
+    toc_depth: 2
+    self_contained: false
+creative_commons: CC BY-NC
+journal:
+doi:
+slug: friederichs2018Schachmatt
+citation_url: https://rstudio.github.io/friedeh
+bibliography: "Papers_all.bib"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tufte)
+# Umwandlung in Powerpoint-Datei über rmarkdown::render("Schachmatt_article.Rmd", output_format = "powerpoint_presentation", output_options = list(reference_doc = "my-styles.pptx"))
+# Umwandlung in Tufte-Handout über rmarkdown::render("Schachmatt_article.Rmd", output_format = "tufte_handout")
+# Umwandlung in Word-Datei über rmarkdown::render("Schachmatt_article.Rmd", output_format = "word_document")
+```
+
+* Mensch gegen Maschine: Schach
+* Trainingszeiten für Exzellenz: 50 h bis > 10.000 h
+* Kaggle
+* AlphaZero
+
+
+
+
+

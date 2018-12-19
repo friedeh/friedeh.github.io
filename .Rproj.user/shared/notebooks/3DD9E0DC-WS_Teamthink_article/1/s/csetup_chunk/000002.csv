@@ -1,0 +1,5 @@
+"0","knitr::opts_chunk$set(echo = FALSE)"
+"0","library(tufte)"
+"0","# Umwandlung in Powerpoint-Datei über rmarkdown::render(""Medizin_article.Rmd"", output_format = ""powerpoint_presentation"", output_options = list(reference_doc = ""my-styles.pptx""))"
+"0","# Umwandlung in Tufte-Handout über rmarkdown::render(""Medizin_article.Rmd"", output_format = ""tufte_handout"")"
+"0","# Umwandlung in Word-Datei über rmarkdown::render(""Medizin_article.Rmd"", output_format = ""word_document"")"

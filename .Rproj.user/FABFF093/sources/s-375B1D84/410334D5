@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545237309010.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "908993219",
+    "id" : "410334D5",
+    "lastKnownWriteTime" : 1545239628,
+    "last_content_update" : 1545239628644,
+    "path" : "~/Documents/GitHub/friedeh.github.io/Spieglein_article.Rmd",
+    "project_path" : "Spieglein_article.Rmd",
+    "properties" : {
+        "cursorPosition" : "6,4",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
