@@ -38,6 +38,7 @@ Den Studierenden sollten dementsprechend Einblicke, Werkzeuge und Modelle an die
 # Konkrete Lernziele
 
 Am Ende des Kurses werden die Teilnehmer in der Lage sein: 
+
 * den Wert und die Grenzen Ihres derzeitigen Entscheidungsfindungsansatzes zu beschreiben 
 * zu verstehen, wie sich äußere Einflüsse auf Ihre Entscheidungsfindung auswirken können 
 * einen evidenzbasierten Rahmen für Entscheidungen zu verwenden 
