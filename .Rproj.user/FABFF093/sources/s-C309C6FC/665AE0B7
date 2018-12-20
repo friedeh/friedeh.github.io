@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545305687419.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4267476210",
+    "id" : "665AE0B7",
+    "lastKnownWriteTime" : 1545328109,
+    "last_content_update" : 1545328109584,
+    "path" : "~/Documents/GitHub/friedeh.github.io/Mist_article.Rmd",
+    "project_path" : "Mist_article.Rmd",
+    "properties" : {
+        "cursorPosition" : "52,47",
+        "scrollLine" : "39"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
