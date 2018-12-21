@@ -1,0 +1,8 @@
+"0","knitr::opts_chunk$set(echo = FALSE)"
+"0","library(VisualResume)"
+"2","Lade nötiges Paket: showtext
+"
+"2","Lade nötiges Paket: sysfonts
+"
+"2","Lade nötiges Paket: showtextdb
+"

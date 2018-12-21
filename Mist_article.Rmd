@@ -28,7 +28,7 @@ library(tufte)
 # Umwandlung in Tufte-Handout über rmarkdown::render("Mist_article.Rmd", output_format = "tufte_handout")
 # Umwandlung in Word-Datei über rmarkdown::render("Mist_article.Rmd", output_format = "word_document")
 # Umwandlung in Shower-Präsentation über rmarkdown::render("Mist_article.Rmd", output_format = "shower_presentation")
-# Umwandlung in Revealjs-Präsentation über rmarkdown::render("Mist_article.Rmd", revealjs_presentation(incremental = TRUE))
+# Umwandlung in Revealjs-Präsentation über rmarkdown::render("Mist_article.Rmd", revealjs_presentation(incremental = TRUE, theme = "black", transition = "fade", background_transition = "fade", highlight = "pygments"))
 ```
 
 # Hintergrund
