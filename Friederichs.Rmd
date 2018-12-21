@@ -18,7 +18,7 @@ library(VisualResume)
 
 # Visualisierter Lebenslauf
 
-```{r VR_Bild, fig.cap= "Visualisierter Lebenslauf Hendrik Friederichs", layout="l-screen-inset shaded"}
+```{r VR_Bild, layout="l-screen-inset shaded"}
 knitr::include_graphics("images/VR_Friederichs_b-w_optimal.png")
 ```
 
@@ -28,11 +28,11 @@ VisualResume::VisualResume(
   titles.left = c("Dr. med. Hendrik Friederichs, MME", "Medizin, Medical Education, Medical Decision Making", " "),
   titles.right = c("www.friederichs.science", "Hendrik.Friederichs@uni-muenster.de", " "),
   titles.left.cex = c(4, 2, 0),
-  titles.right.cex = c(2, 2, 0),timeline.labels = c("Aus- und Weiterbildung", "Lehre und Forschung"),
+  titles.right.cex = c(2, 2, 0),timeline.labels = c("Aus- und Weiterbildung:", "Lehre und Forschung"),
   timeline = data.frame(title = c("Marburg", "Münster", "Osnabrück", " ", "Melle", " ", "Münster", "Medizinische Fakultät Münster"),
                         sub = c("Vorklinik", "Klinik", "Praktisches Jahr", "Unfallchirurgie", "Anästhesie", "Innere Medizin", "Allgemeinmedizin", "Wiss. Mitarbeiter"),
                         start = c(1996, 1998, 2001, 2003, 2004, 2004.8, 2006, 2005),
-                        end = c(1998, 2001, 2003, 2004, 2004.8, 2006, 2007, 2018),
+                        end = c(1998, 2001, 2003, 2004, 2004.8, 2006, 2007, 2020),
                         side = c(0, 0, 0, 0, 0, 0, 0, 1)),
   milestones = data.frame(title = c("Medizin", "Dr.", "MME"),
                           sub = c("Studium", "Promotion", "Master of Medical Education"),
