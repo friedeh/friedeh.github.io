@@ -35,7 +35,7 @@ library(tufte)
 
 ## Historie des Internets
 * Etablierung des Internets
-* Entwicklung der Datenmenge im Internet
+* Zugriff auf das Internet: Wandlung von stationären zu mobilen "Devices"
 
 ## Nutzung des Internets
 * tägliche Nutzung der User
@@ -47,7 +47,7 @@ library(tufte)
 
 # Ziele
 
-* Nutzung dieser Daten: Data Science
+* Nutzung von Daten: Data Science
 * Beispiel: EVALuna
 
 # Brainstorming

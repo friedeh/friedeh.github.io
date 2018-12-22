@@ -20,6 +20,7 @@ library(VisualResume)
 
 ```{r VR_Bild, layout="l-screen-inset shaded"}
 knitr::include_graphics("images/VR_Friederichs_b-w_optimal.png")
+# Ausführung des unten stehenden Codes und Speicherung unter VR_Friederichs_b-w_optimal.png in Ordner "images" mit Auflösung von 1650 x 850 Pixeln
 ```
 
 
@@ -37,8 +38,8 @@ VisualResume::VisualResume(
   milestones = data.frame(title = c("Medizin", "Dr.", "MME"),
                           sub = c("Studium", "Promotion", "Master of Medical Education"),
                           year = c(2002, 2004, 2012)),
-  events = data.frame(year = c(2004, 2007, 2012, 2018),
-                      title = c("Promotion mit dem Titel Epidemiologie und Verlauf der Migräne bei Patienten mit Multipler Sklerose", "Ärztliche Leitung Studienhospital", "Certificate of ESME-SIM der AMEE", "Hochschulzertifikat Data Science der WWU Münster")),
+  events = data.frame(year = c(2004, 2007, 2012, 2013, 2018),
+                      title = c("Promotion (Dr. med.)", "Ärztliche Leitung Studienhospital", "Master of Medical Education (MME)", "Certificate of ESME-SIM der AMEE", "Hochschulzertifikat Data Science der WWU Münster")),
   interests = list("Data Science" = c(rep("RMarkdown", 10), rep("Decision Trees", 10), rep("Bayesian", 5)),
                    "Lehre" = c(rep("Studienhospital", 10), rep("Entscheiden", 3), rep("Simulation", 5)),
                    "Forschung" = c(rep("Expertise", 10), rep("Decision Making", 30), rep("Competence", 20))),

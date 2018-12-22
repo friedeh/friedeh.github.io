@@ -13,9 +13,7 @@ bibliography: Papers_all.bib
 knitr::opts_chunk$set(echo = FALSE)
 library(icon)
 ```
-
-Die Veranstaltung findet (nach aktuellem Stand) immer donnerstags, 14.00 c.t. statt und dauert ca. 30 Minuten. Voraussichtlich werden wir uns im 1. Seminarraum im OG des Studienhospitals (\@ref(fig:mapSHM)) treffen können. Bitte achtet auf entsprechende Aushänge.
-
+# Neue Termine für 2019
 <aside>
 ```{r}
 knitr::include_graphics("images/Logo_Think_Tank_alt.png")
@@ -25,8 +23,6 @@ knitr::include_graphics("images/Logo_Think_Tank_alt.png")
 <aside>
 Das Logo des Think Tank
 </aside>
-
-# Neue Termine für 2019
 
 ## BIG-DATA-Serie
 
@@ -42,8 +38,12 @@ __31.01.2019__: Zu gut für die Medizin? – BIG DATA im Gesundheitswesen
 
 ## Veranstaltungsort
 
-Der Think Tank findet im Studienhospital Münster (Malmedyweg 17-19, Münster) statt.
+Der Think Tank findet im Studienhospital Münster (Malmedyweg 17-19, Münster) statt. Voraussichtlich werden wir uns im 1. Seminarraum im OG des Studienhospitals (\@ref(fig:mapSHM)) treffen können.
 Bitte achten Sie auf die entsprechenden Aushänge am Eingang.
+
+## Zeitpunkt
+
+Die Veranstaltung findet (nach aktuellem Stand) immer donnerstags, 14.00 c.t. statt und dauert ca. 30 Minuten.
 
 ## Website
 
@@ -60,7 +60,7 @@ leaflet() %>%
 
 ## Acknowledgments {.appendix}
 
-Diese Website ist mit RADIX-Open-Source-Software [] entstanden.
+Diese Website ist mit RADIX-Open-Source-Software entstanden.
 
 ## Author Contributions {.appendix}
 

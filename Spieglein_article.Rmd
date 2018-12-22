@@ -29,10 +29,17 @@ library(tufte)
 # Umwandlung in Word-Datei über rmarkdown::render("Spieglein_article.Rmd", output_format = "word_document")
 ```
 
+# Social Media
 * Nutzung der sozialen Medien
 * Die großen Player: Google und Facebook
+
+# Data Science in Social Media
 * Was machen die mit unseren Daten?: der Verhaltensüberschuss
+
+# Verhaltensüberschuss
 * Besser als meine Eltern ...
+* denn sie wissen, was sie tun ...
+* Dark Google? (S. Zuboff)
 
 
 
