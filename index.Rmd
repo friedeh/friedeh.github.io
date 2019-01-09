@@ -13,7 +13,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-Institut für Ausbildung und Studienangelegenheiten (IfAS)
+![](images/IfAS-02.gif)
+
 
 Studienhospital Münster
 

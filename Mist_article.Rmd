@@ -22,7 +22,8 @@ bibliography: "Papers_all.bib"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, eval = FALSE)
+# eval = TRUE um die eingefügten Bilder in die Präsentation einzufügen
 library(tufte)
 # Umwandlung in Powerpoint-Datei über rmarkdown::render("Mist_article.Rmd", output_format = "powerpoint_presentation", output_options = list(reference_doc = "my-styles.pptx"))
 # Umwandlung in Tufte-Handout über rmarkdown::render("Mist_article.Rmd", output_format = "tufte_handout")
@@ -33,12 +34,29 @@ library(tufte)
 # Hintergrund
 
 ## Entwicklung des Internets
-* Etablierung des Internets
-* Zugriff auf das Internet: Wandlung von stationären zu mobilen "Devices"
+### Etablierung des Internets
+Etablierung in X % der Haushalte in Jahren
+* Radio: 15 Jahre
+* Fernsehen: 10 Jahre
+
+### Zugriff auf das Internet: Wandlung von stationären zu mobilen "Devices"
 
 ## Nutzung des Internets
-* Entwicklung der Datenmenge im Internet
-* tägliche Nutzung der User
+### Entwicklung der Datenmenge im Internet
+```{r}
+knitr::include_graphics("images/Daten_pro_Tag.png")
+```
+```{r}
+knitr::include_graphics("images/Datenmenge_Zukunft.png")
+```
+
+### tägliche Nutzung der User
+```{r}
+knitr::include_graphics("images/Internetnutzung_Deutschland.png")
+```
+```{r}
+knitr::include_graphics("images/Nutzer_social_Media.png")
+```
 
 ## Daten im Internet
 * BIG DATA: die fünf V's
