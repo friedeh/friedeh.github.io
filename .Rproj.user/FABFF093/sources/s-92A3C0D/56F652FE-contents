@@ -43,7 +43,13 @@ Der Think Tank findet im Studienhospital Münster (Malmedyweg 17-19, Münster) s
 Bitte achten Sie auf die entsprechenden Aushänge am Eingang.
 
 
-```{r mapSHM, fig.cap="Veranstaltungsort", layout="l-body shaded"}
+<aside>
+```{r}
+knitr::include_graphics("images/Logo_SHM.png")
+```
+</aside>
+
+```{r mapSHM, fig.cap="Veranstaltungsort Studienhospital Münster", layout="l-body shaded"}
 library(leaflet)
 leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
