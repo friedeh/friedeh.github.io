@@ -65,7 +65,7 @@ knitr::include_graphics("images/PubMed_mobile.jpg")
 knitr::include_graphics("images/Unbound_am_Patientenbett.png")
 ```
 
-```{r fig.cap="Zugriff auf das Internet: Wandlung von stationären zu mobilen Devices"}
+```{r fig.cap="Zugriff auf das Internet: Wandlung von stationären zu mobilen Devices", layout="l-page"}
 knitr::include_graphics("images/iPod_bis_iPad.png")
 ```
 
