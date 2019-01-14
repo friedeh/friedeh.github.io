@@ -97,6 +97,11 @@ knitr::include_graphics("images/Kurzfragebogen_BIG_FIVE.png")
 ```
 
 ### Wie gut kennen mich ...?
+<aside>
+```{r fig.cap="Treffsicherheit von Nutzer-Eigenschaften durch Verhaltensweisen im Internet"}
+knitr::include_graphics("images/iStock_000004945204Large.jpg")
+```
+</aside>
 
 * meine Eltern
 
@@ -121,7 +126,6 @@ knitr::include_graphics("images/Kurzfragebogen_BIG_FIVE.png")
 * ein/e Fremde/r
 
 * eine gelegentliche Bekanntschaft
-
 
 ### Wie gut kennen mich Facebook & Co.?
 
