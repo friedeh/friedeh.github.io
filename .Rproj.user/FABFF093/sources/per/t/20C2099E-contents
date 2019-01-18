@@ -1,0 +1,106 @@
+---
+title: "Schachmatt: Machine Learning, Deep Learning und die Frage der (künstlichen) Intelligenz"
+description: |
+  Am Anfang war es nur ein Spiel ...
+author:
+  - name: Hendrik Friederichs
+    url: https://www.friederichs.science
+    affiliation: Institut für Ausbildung und Studienangelegenheiten (IfAS) der Medizinischen Fakultät Münster
+    affiliation_url: https://medicampus.uni-muenster.de/ifas.html
+date: "`r Sys.Date()`"
+output: 
+  radix::radix_article:
+    toc: true
+    toc_depth: 2
+    self_contained: false
+creative_commons: CC BY-NC
+journal: null
+doi: null
+slug: friederichs2018Schachmatt
+citation_url: https://rstudio.github.io/friedeh
+bibliography: "Papers_all.bib"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tufte)
+# Umwandlung in Powerpoint-Datei über rmarkdown::render("Schachmatt_article.Rmd", output_format = "powerpoint_presentation", output_options = list(reference_doc = "my-styles.pptx"))
+# Umwandlung in Tufte-Handout über rmarkdown::render("Schachmatt_article.Rmd", output_format = "tufte_handout")
+# Umwandlung in Word-Datei über rmarkdown::render("Schachmatt_article.Rmd", output_format = "word_document")
+```
+# Hintergrund
+
+## Expertise
+> Denken ist wie Googeln, 
+> nur krasser.
+>
+> `r tufte::quote_footer('--- Unbekannt')`
+
+* Medizin, Musik, Sport & Schach
+* Trainingszeiten für Exzellenz: 50 h bis > 10.000 h
+
+
+# Ziele
+
+## Mensch gegen Maschine
+Meisterhafte Spiele: Schach, Go & Shogi
+
+```{r fig.cap="Meisterhafte Spiele: Schach"}
+knitr::include_graphics("images/Schach.png")
+```
+
+```{r fig.cap="Meisterhafte Spiele: Go"}
+knitr::include_graphics("images/Go.png")
+```
+
+```{r fig.cap="Meisterhafte Spiele: Shogi"}
+knitr::include_graphics("images/Shogi.png")
+```
+
+Die Maschine: AlphaZero
+
+```{r fig.cap="Logo der Google-Firma DeepMind"}
+knitr::include_graphics("images/Google_DeepMind.png")
+```
+
+
+```{r fig.cap="Auf in den Kampf ..."}
+knitr::include_graphics("images/Google_DeepMind_Schach.png")
+```
+
+
+## Der Wettstreit
+* Kaggle & Co.
+* Random Forest und neuronale Netze
+
+
+# Brainstorming
+Quo vadis, Dr. ... ?
+
+
+
+```{r fig.cap="Tägliche Nutzung der User"}
+knitr::include_graphics("images/vier-stunden-und-mehr-online.jpg")
+```
+
+```{r fig.cap="FAANG - Entwicklung der Aktienkurse"}
+knitr::include_graphics("images/FAANG-Stocks.png")
+```
+
+
+```{r fig.cap="Abschöpfen von Nutzerdaten"}
+knitr::include_graphics("images/Maennchen_mit_Schatten.png")
+```
+
+```{r fig.cap="RATAPLAN - der Hund, der dümmer als sein Schatten ist"}
+knitr::include_graphics("images/Rataplan_Schatten.png")
+```
+
+
+
+<aside>
+```{r fig.cap="Ein kleines Quiz während der Veranstaltung - Auflösung folgt ...", eval=TRUE}
+knitr::include_graphics("images/iStock_000004945204Large.jpg")
+```
+</aside>
+

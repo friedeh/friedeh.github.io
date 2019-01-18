@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1547742831858.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2489935674",
+    "id" : "20C2099E",
+    "lastKnownWriteTime" : 1547743930,
+    "last_content_update" : 1547743930803,
+    "path" : "~/Documents/GitHub/friedeh.github.io/Schachmatt_article.Rmd",
+    "project_path" : "Schachmatt_article.Rmd",
+    "properties" : {
+        "cursorPosition" : "26,130",
+        "scrollLine" : "19"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
