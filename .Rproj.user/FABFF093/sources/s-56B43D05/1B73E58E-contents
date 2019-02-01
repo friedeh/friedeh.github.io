@@ -1,0 +1,20 @@
+---
+title: "Dr. med. Hendrik Friederichs"
+site: radix::radix_website
+description: |
+  Lehre, Forschung und Projekte
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+![](images/IfAS-02.gif)
+
+
+Studienhospital Münster
+
+Malmedyweg 17-19
+
+48149 Münster

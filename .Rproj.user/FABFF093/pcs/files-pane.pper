@@ -1,13 +1,13 @@
 {
-    "path" : "~/Documents/GitHub/friedeh.github.io/_site",
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/GitHub/friedeh.github.io",
     "sortOrder" : [
-        {
-            "ascending" : true,
-            "columnIndex" : 1
-        },
         {
             "ascending" : false,
             "columnIndex" : 4
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 1
         },
         {
             "ascending" : true,

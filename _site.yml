@@ -1,0 +1,73 @@
+name: "RadixWebsite"
+title: "Dr. med. Hendrik Friederichs"
+favicon: images/favicon.png
+description: |
+  Lehre, Forschung und Projekte
+output_dir: "."
+navbar:
+  logo:
+    image: images/WWU_Logo_negativ.png
+    href: https://www.uni-muenster.de
+  right:
+    - text: "Home"
+      icon: fa-home
+      href: Friederichs.html
+      menu:
+        - text: "Hendrik Friederichs"
+        - text: "Lebenslauf"
+          href: Friederichs.html
+        - text: "------------------"
+        - text: "Publikationsliste"
+        - text: "Veranstaltungen"
+          href: https://friedeh.github.io/ThinkTank/
+        - text: "------------------"
+        - text: "Blogs"
+        - text: "Simulation"
+          href: Workshop_article.html
+        - text: "Entscheidungskompetenz"
+          href: Workshop_article.html
+    - text: "Lehre"
+      icon: fa-calendar-check
+      menu:
+        - text: "Studienhospital"
+        - text: "Hintergrund"
+          href: Studienhospital.html
+        - text: "Aktuelle Veranstaltungen"
+          href: Spieglein_article.html
+        - text: "------------------"
+        - text: "Medical Skills Lab"
+        - text: "Hintergrund"
+          href: Mist_article.html
+        - text: "Kurstage"
+          href: Spieglein_article.html
+    - text: "Forschung"
+      href: about.html
+      menu:
+        - text: "Simulation"
+        - text: "Publikationen"
+          href: Mist_article.html
+        - text: "Abstracts"
+          href: Spieglein_article.html
+        - text: "------------------"
+        - text: "Entscheidungskompetenz"
+        - text: "Publikationen"
+          href: Mist_article.html
+        - text: "Abstracts"
+          href: Spieglein_article.html
+    - text: "Projekte"
+      menu:
+        - text: "ars.med"
+        - text: "Projekte ars.med"
+          href: Mist_article.html
+        - text: "------------------"
+        - text: "Think Tank"
+        - text: "Veranstaltungen"
+          href: https://friedeh.github.io/ThinkTank/
+        - text: "------------------"
+        - text: "TEAMTHINK"
+        - text: "Workshop"
+          href: Workshop_article.html
+        - text: "Denkfabrik"
+          href: Teamthink_article.html
+          
+output: radix::radix_article
