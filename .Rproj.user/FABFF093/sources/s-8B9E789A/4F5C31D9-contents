@@ -18,14 +18,13 @@ navbar:
           href: Friederichs.html
         - text: "------------------"
         - text: "Publikationsliste"
-        - text: "Veranstaltungen"
-          href: https://friedeh.github.io/ThinkTank/
+          href: Under_Construction.html
         - text: "------------------"
         - text: "Blogs"
         - text: "Simulation"
-          href: Workshop_article.html
+          href: Under_Construction.html
         - text: "Entscheidungskompetenz"
-          href: Workshop_article.html
+          href: Under_Construction.html
     - text: "Lehre"
       icon: fa-calendar-check
       menu:
@@ -33,32 +32,32 @@ navbar:
         - text: "Hintergrund"
           href: Studienhospital.html
         - text: "Aktuelle Veranstaltungen"
-          href: Spieglein_article.html
+          href: Under_Construction.html
         - text: "------------------"
         - text: "Medical Skills Lab"
         - text: "Hintergrund"
-          href: Mist_article.html
+          href: Under_Construction.html
         - text: "Kurstage"
-          href: Spieglein_article.html
+          href: Under_Construction.html
     - text: "Forschung"
       href: about.html
       menu:
         - text: "Simulation"
         - text: "Publikationen"
-          href: Mist_article.html
+          href: Under_Construction.html
         - text: "Abstracts"
-          href: Spieglein_article.html
+          href: Under_Construction.html
         - text: "------------------"
         - text: "Entscheidungskompetenz"
         - text: "Publikationen"
-          href: Mist_article.html
+          href: Under_Construction.html
         - text: "Abstracts"
-          href: Spieglein_article.html
+          href: Under_Construction.html
     - text: "Projekte"
       menu:
         - text: "ars.med"
         - text: "Projekte ars.med"
-          href: Mist_article.html
+          href: Under_Construction.html
         - text: "------------------"
         - text: "Think Tank"
         - text: "Veranstaltungen"
