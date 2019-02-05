@@ -39,6 +39,12 @@ navbar:
           href: Under_Construction.html
         - text: "Kurstage"
           href: Under_Construction.html
+        - text: "------------------"
+        - text: "Fit for Work"
+        - text: "Hintergrund"
+          href: Under_Construction.html
+        - text: "Aktuelle Veranstaltungen"
+          href: Under_Construction.html
     - text: "Forschung"
       href: about.html
       menu:
@@ -49,6 +55,12 @@ navbar:
           href: Under_Construction.html
         - text: "------------------"
         - text: "Entscheidungskompetenz"
+        - text: "Publikationen"
+          href: Under_Construction.html
+        - text: "Abstracts"
+          href: Under_Construction.html
+        - text: "------------------"
+        - text: "in progress ..."
         - text: "Publikationen"
           href: Under_Construction.html
         - text: "Abstracts"

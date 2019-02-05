@@ -30,10 +30,13 @@ library(tufte)
 ```
 
 
-```{r fig.cap="Figure from Hendrik Friederichs", layout="l-body-outset",out.extra="class=external"}
+```{r fig.cap="Figure from iStockphoto, licensee: Hendrik Friederichs"}
 knitr::include_graphics("images/Under_Construction_Builder.png")
 ```
 
+```{r ,out.extra="class=external"}
+# zur Ergänzung des "Reuse" mit Ausschluss von Bildern aus dem CC BY-NC
+```
 
 
 
